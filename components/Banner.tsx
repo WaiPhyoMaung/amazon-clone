@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel'
 const Banner = () => {
   return (
     <div className="relative bg-amazon_blue-light">
-      <div className="absolute w-full h-64 bg-gradient-to-t from-gray-950 to-transparent bottom-0 z-50" />
+      <div className="absolute w-full h-64 bg-gradient-to-t from-gray-950 to-transparent bottom-0 " />
       <Carousel
         autoPlay
         infiniteLoop
@@ -14,7 +14,7 @@ const Banner = () => {
         showThumbs={false}
         showStatus={false}
         interval={5000}
-        // width={10000}
+      // width={10000}
       >
         <div className="">
           <img
